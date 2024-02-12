@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mad Fish Music Venue</title>
+    <meta name="description" content="Learn about upcoming shows at the Mad Fish Music Venue">
+    <meta name="author" content="Tyson Fischer">
+
+</head>
+
+<body>
+    <header>
+        <h1>Upcoming Shows</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="">Upcoming Shows</a></li>
+        </ul> <li><a href="">Buy Tickets</a></li>
+    </nav>
+
+</body>
