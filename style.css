@@ -1,0 +1,46 @@
+body{
+    font-family: "Playfair Display SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/*Header stuff here*/
+header{
+    background-color:#a6c5fa ;
+    padding: 1.5rem 3%;
+}
+header h1{
+    margin: 0;
+    color: #202124 ;
+}
+header p{
+    margin: 0;
+    color: #202124;
+}
+
+/*nav stuff goes here*/
+nav{
+    background-color:#999999 ;
+}
+nav ul{
+    list-style-type:none;
+    padding: 0; 1vw;
+    margin:0;
+    display:flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #202124; ;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a{
+    background-color: #a6c5fa;
+    color: #202124;
+}
+nav a:hover{
+    color: white;
+}
