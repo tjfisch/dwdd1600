@@ -7,7 +7,7 @@ body {
 
 /*Header stuff here*/
 header {
-    background-color: #f2b705;
+    background-color: #eaeaea;
     padding: 1rem 2vw;
 }
 header h1{
@@ -22,7 +22,7 @@ header p{
 
 /*nav stuff goes here*/
 nav{
-    color:#f2b705;
+    background-color:#f2b705;
 }
 nav ul{
     list-style-type:none;
