@@ -1,0 +1,176 @@
+body{
+    font-family: "Playfair Display", serif;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+}
+
+/*Header stuff here*/
+header{
+    background-color:#a6c5fa ;
+    padding: 1.5rem 3%;
+}
+header h1{
+    margin: 0;
+    color: #202124 ;
+}
+header p{
+    margin: 0;
+    color: #202124;
+}
+
+/*nav stuff goes here*/
+nav{
+    background-color:#999999 ;
+}
+nav ul{
+    list-style-type:none;
+    padding: 0; .5vw;
+    margin:0;
+    display:flex;
+}
+nav a{
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: #202124; ;
+    font-weight: 700;
+    display: block;
+    padding: .83rem 2rem;
+}
+nav li.active a{
+    background-color: #8fa8d1;
+    color: #202124;
+}
+nav a:hover{
+    color: white;
+}
+/*main stuff here*/
+main{
+   color: #233d8e
+}
+main{
+    padding: 1.5rem 3vw;
+    margin-top: 0;
+}
+main h1{
+    margin-bottom: .2rem;
+}
+main p{
+    margin: 0 0 .3rem 0;
+    color: #202124;
+}
+main h2{
+    margin-bottom: .2rem;
+}
+main h3{
+    margin-bottom: .2rem;
+}
+main ol{
+    padding: .5rem 3vw;
+    background-color: aliceblue
+}
+main dl dt{
+    color: #999999;
+    font-weight: 700;
+}
+main dl dd{
+     color: #999999;
+    font-size: .9rem;
+}
+main ul{
+    list-style-type: georgian;
+}
+main address {
+    font-style: normal;
+    background-color: aliceblue ;
+    padding: .5rem;
+    width: 12.5rem;
+    border: 1px solid #024873;
+    border-radius: 5px;
+}
+
+main a {
+    color: #a6c5fa
+}
+main a:hover {
+    color: #233d8e
+}
+
+.myForm fieldset{
+    border: 1px solid #43a0b6;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+}
+
+.myForm legend{
+    color: #43a0b6;
+    font-size: .8rem;
+}
+
+.myForm label{
+    margin: .5rem;
+}
+
+.myForm label, .myForm select, .myForm [type="text"], .myForm [type="tel"], .myForm textarea {
+    display: block;
+}
+
+.myForm [type="text"], .myForm [type="tel"], .myForm select, .myForm textarea {
+    border: solid 1px #888;
+    padding: .3rem;
+    width: 250px;
+    border-radius: .3rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    font-weight: 200;
+}
+.myForm textarea {
+    height: 6rem;
+}
+
+.myForm :required {
+    background-color: #b8c7f3
+}
+
+.myForm [type="submit"]{
+    background-color: #43a0b6 ;
+    border: none;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    color: white;
+    margin: 1rem 0 0 1vw;
+}
+
+
+
+
+
+
+
+
+/*footer stuff here*/
+footer{
+    background-color: #a6c5fa;
+    text-align: center;
+    color: #202124;
+    padding: .3rem 0;
+    font-size: 1rem;
+}
+footer a{
+    color: #202124;
+}
+
+
+figure.wrapped {
+    width: 30%;
+    margin: 0 0 0 2%;
+    float: right;
+}
+figure.wrapped img{
+    width: 100%;
+    height: auto;
+}
+
+figure.wrapped figcaption {
+    text-align: center;
+    font-size: .8rem;
+}
