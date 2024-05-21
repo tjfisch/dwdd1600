@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head> <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>Mad Fish Music Venue</title>
+    <meta name="description" content="Learn about upcoming shows at the Mad Fish Music Venue">
+    <meta name="author" content="Tyson Fischer">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Purchase Tickets</h1>
+        <p>Supporting local bands</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li> <a href="index.html">Home</a></li>
+            <li><a href="upcomingshows.html">Upcoming Shows</a></li>
+            <li class="active"><a href="#tickets.html">Buy Tickets</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="ticketpricing.html">Pricingy</a></li>
+        </ul> 
+    </nav>
+    <main>
+        <h1>Purchase tickets here</h1>
+        <form method="get" class="myForm" action="thanks.html">
+        <fieldset>
+            <legend>Select a show</legend>
+                <label><input type="radio" name="date" value="Thursday">Thursday Show</label>
+                <label><input type="radio" name="date" value="Friday">Friday Show</label>
+                <label><input type="radio" name="date" value="Saturday">Saturday Show</label>
+
+        </fieldset>
+
+
+        <fieldset>
+            <legend>Which band are you going to see?</legend>
+                <Label><input type="checkbox" name="band" value="chosen">lovingly clad</Label>
+                <Label><input type="checkbox" name="band" value="chosen">internet lover boys</Label> 
+                <Label><input type="checkbox" name="band" value="chosen">merchants of venice</Label> 
+
+                <label>
+                    <select name="time">
+                      <option value="none">amount of tickets</option>
+                        <option value="morning">1 (min)</option>
+                        <option value="noon">2</option>
+                     <option value="afternoon">3</option>
+                        <option value="evening">4 (max)</option>
+                 </select>
+                </label>
+
+        </fieldset>
+
+        <fieldset>
+            <legend>Put in the email you would like the tickets sent to</legend>
+            <label>Email<input type="text" name="email" required> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Would you like text reminders?</legend>
+                <label><input type="radio" name="method" value="drone">Yes</label>
+                <label><input type="radio" name="method" value="drone">No</label>
+        </fieldset>
+
+        <fieldset>
+            <legend>(Optional)</legend>
+            <label>Cell Number* <input type="tel" name="phone" placeholder="987-555-1234"> </label>
+        </fieldset>
+
+        <fieldset>
+            <legend>Credit Card Information</legend>
+            <textarea name="comments">0000 0000 0000 0000</textarea>
+        </fieldset>
+
+
+        <input type="submit" value="Purchase">
+        </form>
+    </main>
+</body>
+<footer>
+    <p>&copy; 2024 &bull; Tyson Fischer &bull; <a href="mailto:tjfish826@gmail.com">Email Us</a></p>
+</footer>
