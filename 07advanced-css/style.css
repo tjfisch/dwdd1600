@@ -56,33 +56,28 @@ header p{
 
 
 @media only screen and (min-width: 601px) {
-   
-    nav {
-        border-top: solid 1px #E0E6E6;
-        
+       nav{
+        background-color:#999999 ;
     }
-    nav ul {
-        margin: 0;
-        padding: 0 2vw;
-        list-style-type: none;
-        display: flex;
+    nav ul{
+        list-style-type:none;
+        padding: 0; .5vw;
+        margin:0;
+        display:flex;
     }
-    nav a {
-        display: block;
-        padding: 1.2rem 1rem .3rem 1rem;
-        font-size: 1rem;
+    nav a{
+        font-size: 1.1rem;
         text-decoration: none;
+        color: #202124; ;
+        font-weight: 700;
+        display: block;
+        padding: .83rem 2rem;
+    }
+    nav li.active a{
+        background-color: #8fa8d1;
         color: #202124;
-        font-weight: 600;
-        text-transform: uppercase;
-        text-align: center;
-        border-bottom: solid 2px #fff;
     }
-    
-    nav .active a {
-        border-bottom: solid 2px white;
-    }
-    nav a:hover {
+    nav a:hover{
         color: white;
     }
 } /*end of the media querry*/
@@ -90,30 +85,7 @@ header p{
 
 
 
-nav{
-    background-color:#999999 ;
-}
-nav ul{
-    list-style-type:none;
-    padding: 0; .5vw;
-    margin:0;
-    display:flex;
-}
-nav a{
-    font-size: 1.1rem;
-    text-decoration: none;
-    color: #202124; ;
-    font-weight: 700;
-    display: block;
-    padding: .83rem 2rem;
-}
-nav li.active a{
-    background-color: #8fa8d1;
-    color: #202124;
-}
-nav a:hover{
-    color: white;
-}
+
 /*main stuff here*/
 main{
    color: #233d8e
